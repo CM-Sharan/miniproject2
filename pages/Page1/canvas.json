@@ -2619,7 +2619,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 9.41796875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 26,
+                      "leftColumn": 23,
                       "dynamicBindingPathList": [
                         {
                           "key": "fontFamily"
@@ -2632,7 +2632,7 @@
                       "truncateButtonColor": "#FFC13D",
                       "text": "LCD - 1",
                       "key": "vxsbkrywbm",
-                      "rightColumn": 42,
+                      "rightColumn": 39,
                       "textAlign": "CENTER",
                       "widgetId": "7dbwsrwmfp",
                       "logBlackList": {
