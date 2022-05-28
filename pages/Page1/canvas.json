@@ -1333,7 +1333,7 @@
                         },
                         "Text11": {
                           "isVisible": true,
-                          "text": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '10 MINS';\n              })();\n            })}}",
+                          "text": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.dur;\n              })();\n            })}}",
                           "fontSize": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '1.25rem';\n              })();\n            })}}",
                           "fontStyle": "BOLD",
                           "textAlign": "LEFT",
@@ -1479,7 +1479,7 @@
                         },
                         "Text13": {
                           "isVisible": true,
-                          "text": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'GOOD';\n              })();\n            })}}",
+                          "text": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.status;\n              })();\n            })}}",
                           "fontSize": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '1.25rem';\n              })();\n            })}}",
                           "fontStyle": "BOLD",
                           "textAlign": "LEFT",
@@ -2337,11 +2337,14 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "text"
                                         }
                                       ],
                                       "shouldTruncate": false,
                                       "truncateButtonColor": "#FFC13D",
-                                      "text": "10 MINS",
+                                      "text": "{{currentItem.dur}}",
                                       "key": "vxsbkrywbm",
                                       "rightColumn": 36,
                                       "textAlign": "LEFT",
@@ -2485,11 +2488,14 @@
                                         },
                                         {
                                           "key": "borderRadius"
+                                        },
+                                        {
+                                          "key": "text"
                                         }
                                       ],
                                       "shouldTruncate": false,
                                       "truncateButtonColor": "#FFC13D",
-                                      "text": "GOOD",
+                                      "text": "{{currentItem.status}}",
                                       "key": "vxsbkrywbm",
                                       "rightColumn": 36,
                                       "textAlign": "LEFT",
