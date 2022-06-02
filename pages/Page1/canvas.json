@@ -1238,7 +1238,7 @@
                                       "widgetName": "Text8",
                                       "displayName": "Text",
                                       "iconSVG": "/static/media/icon.97c59b52.svg",
-                                      "topRow": 2,
+                                      "topRow": 1,
                                       "bottomRow": 6,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
@@ -1264,7 +1264,7 @@
                                       "truncateButtonColor": "#FFC13D",
                                       "text": "{{currentItem.barcodeno}}",
                                       "key": "p358m1atls",
-                                      "rightColumn": 57,
+                                      "rightColumn": 59,
                                       "textAlign": "LEFT",
                                       "widgetId": "ogdi09w4ed",
                                       "logBlackList": {
@@ -1399,7 +1399,7 @@
                                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                                       "parentColumnSpace": 9.41796875,
                                       "dynamicTriggerPathList": [],
-                                      "leftColumn": 27,
+                                      "leftColumn": 28,
                                       "dynamicBindingPathList": [
                                         {
                                           "key": "fontFamily"
@@ -1415,7 +1415,7 @@
                                       "truncateButtonColor": "#FFC13D",
                                       "text": "{{currentItem.dur}}",
                                       "key": "vxsbkrywbm",
-                                      "rightColumn": 43,
+                                      "rightColumn": 44,
                                       "textAlign": "LEFT",
                                       "widgetId": "uucw9fuu69",
                                       "logBlackList": {
