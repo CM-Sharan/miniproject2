@@ -35,7 +35,7 @@
           "data": ""
         },
         "orderBy": {
-          "data": "[\"-sno\"]"
+          "data": "[\"-barcodeno\"]"
         },
         "path": {
           "data": "miniProject2-eee"
